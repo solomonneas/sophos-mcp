@@ -1,8 +1,10 @@
 # Sophos Central MCP Server
 
-[![TypeScript 5.7](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
-[![MCP SDK](https://img.shields.io/badge/MCP-1.x-green)](https://modelcontextprotocol.io)
+[![TypeScript 5.7](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-green?logo=node.js)](https://nodejs.org/)
+[![MCP SDK](https://img.shields.io/badge/MCP-1.x-purple)](https://modelcontextprotocol.io)
 [![Sophos](https://img.shields.io/badge/Sophos-Central-blue)](https://www.sophos.com/en-us/products/sophos-central)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that provides AI assistants with access to [Sophos Central](https://www.sophos.com/en-us/products/sophos-central), a unified cloud security management platform. Manage endpoints, investigate alerts, analyze EDR/XDR detections, run Live Discover queries, and audit security policies.
 
