@@ -135,6 +135,28 @@ SOPHOS_TENANT_ID=your-tenant-id
 }
 ```
 
+### OpenClaw
+
+Add to your `openclaw.json`:
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "sophos": {
+        "type": "stdio",
+        "command": "node",
+        "args": ["/path/to/sophos-mcp/dist/index.js"],
+        "env": {
+          "SOPHOS_CLIENT_ID": "your-client-id",
+          "SOPHOS_CLIENT_SECRET": "your-client-secret"
+        }
+      }
+    }
+  }
+}
+```
+
 ## Tool Reference
 
 | Tool | Description |
